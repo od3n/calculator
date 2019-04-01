@@ -1,0 +1,24 @@
+{
+    "name": "od3n/calculator",
+    "description": "This demo package will do some calculations",
+    "authors": [
+        {
+            "name": "od3n",
+            "email": "mr.od3n@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Od3n\\Calculator\\": "src/"
+        }
+    },    
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Od3n\\Calculator\\CalculatorServiceProvider"
+            ]
+        }
+    },    
+}
